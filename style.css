@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*   End of CSS reset */
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Karla', Helvetica, sans-serif;
+
+}
+
+
+header {
+	/* control upper black portion of page*/
+    background-color: #000000;
+    color:#FFFFFF;
+		padding: 30px 0 70px 0;
+}
+
+header p {
+	font-size: 1em;
+	padding-top: 30px;
+	line-height: 1.2;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.container {
+	/* control white portion/main page*/
+		/* outline: 3px dotted blue; */
+    background-color: #000000;
+    font-size: 46px;
+    font-weight: bold;
+		line-height: .75em;
+    margin: 0 auto;
+    padding: 0px 0 80px 0;
+    width: 620px;
+}
+
+.row {
+		font-size: 46px;
+		font-weight: bold;
+  	line-height: 1.6em;
+		margin:0 auto;
+    padding-bottom: 45px;
+		overflow: auto;
+		position:relative;
+}
+
+
+.join {
+    font-size: 20px;
+		font-weight:normal;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.divider {
+    color:#ae5cc8;
+    width:500px;
+    display:inline-block;
+    background:url('http://makethisyear.com/images/dot.png') repeat-x bottom left;
+    padding-bottom:13px;
+		padding-top: 0px;
+}
+
+
+.email {
+	/* outline: 4px solid red; */
+
+		display: block;
+		width: 100%;
+		border-radius: 3px;
+		background-color: #FFFFFF;
+		border: none;
+		color: #000000;
+		overflow: auto;
+		font-size: .5em;
+    font-weight: normal;
+		padding: 12px 5%;
+		margin-top: 6px;
+	  float: left;
+		width: 52%;
+}
+
+.invite {
+		/* outline: 2px solid red; */
+		border-radius: 3px;
+		background-color: #ae5cc8;
+		border: none;
+    color: #FFFFFF;
+		float: right;
+    font-size: .5em;
+    font-weight:normal;
+    padding: 21px 5%;
+    text-align: center;
+		width: 35%;
+		margin-top: 5px;
+
+}
+
+.company-info {
+    /* outline: 3px solid pink; */
+    margin: 0 auto;
+		max-width: 640px;
+		font-size: 1.2em;
+		font-weight: 600;
+
+}
+
+.company-info h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 50px 0 15px 0;
+}
+
+.company-info a {
+    text-decoration: none;
+    color:#9c9c9c;
+}
+
+.company-info p {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin: 10px 0;
+}
+
+
+.instructors {
+	/* outline: 2px solid red; */
+	color: black;
+	font-size: 1.1em;
+	font-weight: 300;
+	overflow: auto;
+}
+
+.instructors h3 {
+    font-weight: bold;
+}
+
+
+.instructors li {
+    /* outline: 2px solid blue; */
+		float: left;
+		width: 30%;
+    margin-right: 20px;
+		font-size: 1em;
+}
+
+.instructors li h3 {
+	color: #00000;
+	font-size: .7em;
+	margin: 10px 0;
+}
+
+.instructors img {
+    /* outline: 3px solid orange; */
+		margin-top: 10px;
+		margin-bottom: 10px;
+}
+
+.instructors ul li p {
+		color: #9c9c9c;
+		font-size: .75em;
+		line-height:1.2em
+    text-decoration: none;
+}
+
+.marketing h3 {
+	line-height: 1.5em;
+	font-size: 1.2em;
+}
+
+.marketing p {
+	margin-top: 20px;
+	line-height:1.8em;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.marketing p a {
+	color: #999999;
+	text-decoration:underline;
+}
+
+.founder {
+	color: #999999;
+	font-size: .9em;
+	font-weight: 100;
+	padding-bottom: 90px;
+}
+
+.logos {
+	margin-top:115px 0;
+	min-height: 100px;
+	overflow: auto;
+}
+
+.logos img {
+	max-width: 100%;
+}
+
+.logos li {
+	float: left;
+	width: 33.33333%;
+	list-style: none;
+}
+
+.logos ul li {
+	width:206px;
+	float:left;
+}
+
+.second-email {
+	clear: left;
+	padding-bottom: 80px;
+}
+
+.second-email p {
+	font-size: 1.2em;
+	font-weight:100;
+	line-height: 1.5em;
+	margin-top: 75px;
+	margin-bottom: 20px;
+}
+
+.email-bottom {
+	/* outline: 4px solid red; */
+
+		display: block;
+		width: 100%;
+		border-radius: 3px;
+		background-color: #E6E6E6;
+		border: none;
+		color: #A7A7A7;
+		overflow: auto;
+		font-size: 1.3em;
+    font-weight: normal;
+		padding: 12px 5%;
+		margin-top: 6px;
+	  float: left;
+		width: 52%;
+}
+
+.invite-bottom {
+		/* outline: 2px solid red; */
+		border-radius: 3px;
+		background-color: #ae5cc8;
+		border: none;
+    color: #FFFFFF;
+		float: right;
+    font-size: 1.1em;
+    font-weight:normal;
+    padding: 23px 5%;
+    text-align: center;
+		width: 35%;
+		margin-top: 5px;
+}
+
+footer {
+	font-size: .75em;
+	font-weight: 100;
+	margin-top: 125px;
+	margin-bottom: 100px;
+}
+
+footer a {
+	color: blue;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #000000;
+}
